@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyCity</string>
+
+    <!-- recursos string -->
+    <string name="name">My City</string>
+    <string name="country">Nicaragua</string>
+    <string name="city">Managua</string>
+    <string name="city_contry">Managua, Nicaragua</string>
+
+
+    <string name="Find">¡Descubre Managua!</string>
+    <string name="Find_02">¡Descubre lugares a visitar en Managua!</string>
+    <string name="Recommendation">Recomendaciones</string>
+
+    <!-- Descripciones -->
+    <string name="managua_description">Managua es la capital y la ciudad más grande de Nicaragua.Está ubicada a orillas del lago Xolotlán, también conocido como lago de Managua. Es una ciudad moderna y vibrante, con una rica historia y cultura. Managua ofrece a sus visitantes una variedad de atracciones, como el Palacio Nacional, el Parque Histórico Nacional Loma de Tiscapa, el Teatro Nacional Rubén Darío y el Mercado Oriental. También es un punto de partida ideal para explorar otras regiones del país, como las playas del Pacífico, las islas del Caribe o las montañas del norte.</string>
+
+    <!-- Lugares -->
+    <string name="lugar_01">Puerto\nSalvador\nAllende</string>
+    <string name="lugar_001">Puerto Salvador Allende</string>
+    <string name="description_lugar_01">El Puerto Salvador Allende se encuentra situado en el Malecón de Managua, al norte de la capital en su antiguo centro. Fue inaugurado en el año 2008. Se caracteriza por ser un Puerto Turístico; ofrece una amplia variedad de entretenimiento y servicios a los visitantes entre ellos diferentes tipos de gastronomía, recreación familiar, recorridos turísticos en el lago Xolotlán y alquiler de espacios para actividades comerciales.</string>
+
+    <string name="lugar_02">Antigua Catedral\nde Managua</string>
+    <string name="lugar_002">Antigua Catedral de Managua</string>
+    <string name="lugar_0002">Antigua Catedral</string>
+    <string name="description_lugar_02">La Catedral Metropolitana de Santiago Apóstol de Managua o simplemente Antigua Catedral de Managua es un edificio de estilo neoclásico, de la ciudad de Managua, capital de Nicaragua que fue dañada por el terremoto del 23 de diciembre de 1972. Su fachada se asemeja a la de la Iglesia de Saint-Sulpice de París, Francia.</string>
+
+    <string name="lugar_03">Estadio Nacional\nDennis Martinez</string>
+    <string name="lugar_003">Estadio Nacional Dennis Martinez</string>
+    <string name="lugar_0003">Estadio Nacional</string>
+    <string name="description_lugar_03">El Estadio Nacional Soberanía es un estadio de béisbol ubicado en la ciudad de Managua, Nicaragua, es el estadio más grande del país y el quinto más grande en Centroamérica y el Caribe. Fue inaugurado el 20 de octubre de 2017 como "Estado Nacional Dennis Martínez" en honor a Dennis Martínez un destacado jugador y el primer nicaragüense en jugar en las Grandes Ligas del béisbol organizado de primera división. En 2022, el estadio dejó de llamarse así, para llamarse únicamente “Estadio Nacional Soberanía”.</string>
+</resources>

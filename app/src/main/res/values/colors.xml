@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados -->
+    <color name="Color_1">#001b48</color>
+    <color name="Color_2">#004581</color>
+    <color name="Color_3">#018abd</color>
+    <color name="Color_4">#97cbdc</color>
+    <color name="Color_5">#dde8f0</color>
+</resources>

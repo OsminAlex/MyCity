@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lugar03">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/Color_1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="15dp"
+            android:gravity="start" >
+
+            <ImageView
+                android:id="@+id/btn_goBack"
+                android:layout_width="64dp"
+                android:layout_height="48dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:tint="@color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:text="@string/lugar_0003"
+                android:fontFamily="@font/bangers_regular"
+                android:textSize="32sp"/>
+        </LinearLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+    <!-- el resto -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img_managua"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar"
+        android:layout_marginTop="15dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lugar_03"/>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_managua"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/bangers_regular"
+        android:text="@string/lugar_003"
+        android:textColor="@color/Color_1"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tittle"
+        app:cardBackgroundColor="@color/Color_5"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/description_lugar_03"
+            android:textColor="@color/Color_2"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
