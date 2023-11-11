@@ -21,8 +21,7 @@ class Lugar01 : AppCompatActivity() {
 
     private fun goBack(){
         biding.btnGoBack.setOnClickListener {
-            val goBackIntent = Intent(this, Recommendation::class.java)
-            startActivity(goBackIntent)
+            onBackPressed()
         }
     }
 }
